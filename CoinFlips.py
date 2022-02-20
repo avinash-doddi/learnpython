@@ -1,10 +1,10 @@
 """ Coin Flips - by Avinash Doddi """
 
-import random
+import random # to use random() fuction
 
 def randomflips():
 	rand = random.random() # generates a random value
-	if (rand > 0.4): return True
+	if (rand > 0.4): return True 
 	else: return False
 	
 def flips(n):
