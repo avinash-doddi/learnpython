@@ -1,4 +1,4 @@
-""" Coin Flips - by Avinash Doddi """
+""" Coin Flips (generates random heads and tails) - by Avinash Doddi """
 
 import random # to use random() fuction
 
