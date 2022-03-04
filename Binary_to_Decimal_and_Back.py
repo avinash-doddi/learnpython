@@ -17,7 +17,7 @@ def main():
             print("Enter the binary:")
             binary_to_Decimal(input())
         else:
-            main()
+            main()  # re-invoking the main() function
     except ValueError:  # to handle wrong values
         print("Entered Wrong value, Enter the Correct Value")
         main()
