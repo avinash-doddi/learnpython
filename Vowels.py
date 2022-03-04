@@ -2,7 +2,7 @@
 
 s = input()
 vowels = ['A','a','E','e','I','i','O','o','U','u'] # list containing vowels
-count = {} 
+count = {} # creating a Dictonary
 for i in s:
     if i in vowels:
         count[i] = 0
