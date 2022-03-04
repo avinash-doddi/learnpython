@@ -3,7 +3,7 @@
 def binary_to_Decimal(binary): # a function to print decimal
     print(int(binary, 2))
 
-def Decimal_to_binary(decimal):
+def Decimal_to_binary(decimal): # a function to print binary
     print(bin(decimal)[2:])
     
 def main():
