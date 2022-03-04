@@ -4,7 +4,7 @@ def binary_to_Decimal(binary): # a function to print decimal
     print(int(binary, 2)) # this converts binary to decimal
 
 def Decimal_to_binary(decimal): # a function to print binary
-    print(bin(decimal)[2:])
+    print(bin(decimal)[2:])  # bin() converts decimal to binary
     
 def main():
     try:
