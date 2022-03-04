@@ -18,7 +18,7 @@ def main():
             binary_to_Decimal(input())
         else:
             main()
-    except ValueError:
+    except ValueError:  # to handle wrong values
         print("Entered Wrong value, Enter the Correct Value")
         main()
     except NameError:
