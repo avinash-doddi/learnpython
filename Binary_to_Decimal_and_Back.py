@@ -21,7 +21,7 @@ def main():
     except ValueError:  # to handle wrong values
         print("Entered Wrong value, Enter the Correct Value")
         main()
-    except NameError:
+    except NameError:  # to handle wrong name, values
         print("Entered Wrong value, Enter the Correct Value")
         main()
                 
