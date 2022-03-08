@@ -9,7 +9,7 @@ def fibnocci(n):
 			if (len(seq) == 1): seq.append(1)
 			else:
 				seq.append(seq[-1] + seq[-2])
-		print(*seq) #prints the complete list of fibnocci sequence
+		print(*seq) #prints the complete list of fibnocci sequence 
 
 if __name__ == '__main__':
 	fibnocci(int(input("Enter a number to get fibnocci sequence:")))
