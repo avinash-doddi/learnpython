@@ -12,4 +12,4 @@ for i in s:
     
 ''' To print all the occurances'''
 for x, y in count.items():
-    print(str(x) + " : " + str(y))    # to get output as vowel : count
+    print(str(x) + " : " + str(y))    # to get output as vowel : count 
