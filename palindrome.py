@@ -1,4 +1,4 @@
-"""Check if Palindrome by avinash-doddi"""
+""" Check if Palindrome by avinash-doddi """
 
 s = input("Enter a string:")
 if (s == s[::-1]): print("Palindrome")
