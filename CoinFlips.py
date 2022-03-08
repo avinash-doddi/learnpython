@@ -1,6 +1,6 @@
 """ Coin Flips (generates random heads and tails) - by Avinash Doddi """
 
-import random # to use random() fuction
+import random # to use random() fuction, importing random
 
 def randomflips():
 	rand = random.random() # generates a random value
