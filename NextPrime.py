@@ -1,12 +1,12 @@
 """ Next Prime Number - by Avinash Doddi """
-
-import math  # to use sqrt() function
+""" Complexity of O(n logn) """
+import math  # to use sqrt() function from math
 
 def isprime(n):
 	if (n == 2): return True
 	if (n%2 == 0): return False
 	else:
-		for i in range(3, int(math.sqrt(n))+1, 2):
+		for i in range(3, int(math.sqrt(n))+1, 2):    
 			if (n % i == 0): return False
 		return True
 		
