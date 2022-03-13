@@ -1,4 +1,4 @@
-"""Binaryto Decimal and Back Converter by avinash-doddi"""
+"""Binary to Decimal and Back Converter by avinash-doddi"""
 
 def binary_to_Decimal(binary): # a function to print decimal
     print(int(binary, 2)) # this converts binary to decimal
