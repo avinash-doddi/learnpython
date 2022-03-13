@@ -8,7 +8,7 @@ def Decimal_to_binary(decimal): # a function to print binary
     
 def main():
     try:
-        print("Enter Binary to Convert Decimal to Binary, Enter Decimal to Convert Binary to Decimal"
+        print("Enter Binary to Convert Decimal to Binary, Enter Decimal to Convert Binary to Decimal")
         switch = input()
         if (switch == 'Binary' or switch == 'binary'):
             print("Enter the number:")
