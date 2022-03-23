@@ -15,7 +15,7 @@ def flips(n):
 			tails += 1;
 		else:
 			heads += 1
-	print("tails:" + str(tails) + " heads:" + str(heads))	
+	print("tails:" + str(tails) + "" + str(heads))	
 	
 
 if __name__ == '__main__':
