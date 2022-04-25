@@ -3,7 +3,8 @@
 def main():
     while True:
         s = input("Enter a Word: ")
-        if (len(s) > 1 and s.isalpha()):
+        # checks whether the input is more than one character length and does it only contains alphabets.
+        if (len(s) > 1 and s.isalpha()): 
             value = s[0:1]
             s = s[1:] + "-" + value + "ay"
             print("pyglatin word is " + s)
