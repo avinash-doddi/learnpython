@@ -2,7 +2,7 @@
 """Happy Number by Avinash Doddi"""
 for _ in range(int(input())):
     n = input("Enter a number: ") # taking input
-    sumval = 0
+    sumval = 0 # to have the sum of squares of individual digits of the number.
     while(True):
       while(n > 0):
         sumval += (n % 10) ** 2;
