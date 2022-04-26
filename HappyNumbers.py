@@ -1,7 +1,7 @@
 # for reference of problem : https://github.com/avinash-doddi/Projects-Solutions
 """Happy Number by Avinash Doddi"""
 for _ in range(int(input())):
-    n = input("Enter a number: ")
+    n = input("Enter a number: ") # taking input
     sumval = 0
     while(True):
       while(n > 0):
