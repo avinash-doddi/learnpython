@@ -9,6 +9,6 @@ for _ in range(int(input())):
         n //= 10;
         
       n = sumval;
-      if (n > 10): break;
+      if (n > 10): break;  # breaks since n will not become 1 no matter how many loops it takes.
   if (n == 1): print("YES")
   else: print("NO")
