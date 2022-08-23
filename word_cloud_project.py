@@ -1,3 +1,6 @@
+""" this a project to create a word cloud (please refer to google about how word cloud looks ;p) using the wordcloud module in python
+    and used the fileupload module to decode the text file and used the numpy and matplotlib modules to generate a word cloud """
+
 # Here are all the installs and imports you will need for your word cloud script and uploader widget
 
 !pip install wordcloud
